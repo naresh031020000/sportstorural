@@ -63,7 +63,7 @@ img{
 
 }
 img:hover{
-    box-shadow: 2px 2px 50px aqua;
+    box-shadow: 2px 2px 50px rgb(25, 27, 27);
     transform:   scale(1);
     transition-duration: 0.5s;
     
