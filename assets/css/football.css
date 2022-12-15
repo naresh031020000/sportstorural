@@ -211,13 +211,14 @@ p{
     top: 250px;
     left: -2px;
 }
-.buy{
+.connect{
   width: 70px;
   border-radius: 10px;
   border: none;
   height: 30px;
-  background: linear-gradient(#FC575E,#F7B42C);
-  margin-left: 90px;
+  background: linear-gradient(#7beb62,#17d453);
+  margin-left: 100px;
   margin-top: 20px;
+border: 1px solid white;
 
 }
