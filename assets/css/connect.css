@@ -20,6 +20,8 @@
   
    .content1 img{
     border-radius: 12px;
+    height: 500px;
+    width: 400px;
    }
    table{
   
@@ -54,9 +56,9 @@
    }
   
    p{
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
    }
@@ -86,10 +88,43 @@
     box-shadow:0 2px 15px rgba(64,64,64,.7) ; 
   }
   
-  
+  .analysis{
+    display: flex;
+    justify-content: space-around;
+  }
   
   .analysis img{
     width: 700px;
     border: 5px solid black;
     border-radius: 12px;
+  }
+
+  .batting{
+    width: 200px ;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    font-size: 10px;
+
+  }
+
+  .bowling{
+    width: 200px ;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    
+
+  }
+  .sponser{
+    position: relative;
+    left: 1110px;
+    bottom: 200px;
+    width: 100px;
+    background-color: greenyellow;
+    height: 30px;
+    border-radius: 20px;
+
   }
